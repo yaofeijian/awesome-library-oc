@@ -4,7 +4,7 @@
 
 @interface AwesomeLibraryOc : NSObject <NativeAwesomeLibraryOcSpec>
 #else
-#import <React/RCTBridgeModule.h>
+#import "ITRNComponent.h"
 
 @interface AwesomeLibraryOc : NSObject <RCTBridgeModule>
 #endif
