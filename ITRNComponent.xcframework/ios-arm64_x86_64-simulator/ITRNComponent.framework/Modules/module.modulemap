@@ -1,0 +1,6 @@
+framework module ITRNComponent {
+  umbrella header "ITRNComponent.h"
+
+  export *
+  module * { export * }
+}
