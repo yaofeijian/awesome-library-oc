@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.source       = { :http => "https://italkimobile.s3-us-west-2.amazonaws.com/rigel/itrncomponent/20230428023626_QA.iOS.20230428.1.zip" }
   #s.source       = { :http => "https://italkimobile.s3-us-west-2.amazonaws.com/rigel/itrncomponent/20230428023626_QA.iOS.20230428.1.zip" }
 
-  # s.source_files = "ios/**/*.{h,m,mm,swift}"
+  s.source_files = "ios/**/*.{h,m,mm,swift}"
   s.vendored_frameworks = "20230428023626_QA.iOS.20230428.1/ITRNComponent.xcframework"
   #s.source_files = "archive/**/*.{h,m,mm,swift}"
 
